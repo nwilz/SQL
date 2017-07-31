@@ -1,3 +1,5 @@
+--This query updates a field with the number of phones they have on the record
+
 update uta16.prospect_base pb
 set rpt_fld =  (select num_phones from (select id_number, phone+cell+other_phone+bus_phone as num_phones 
 					from (select pb.id_Number, segment_group,
