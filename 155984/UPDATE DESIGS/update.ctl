@@ -1,5 +1,5 @@
 LOAD DATA 
-INFILE 'J:\00-FM\Delaware, University of\UDEL18\Work Request\Monthly\155984\file_05_allocations_20170706.txt'
+INFILE 'J:\00-FM\Delaware, University of\UDEL18\Work Request\Monthly\155984\file_05_allocations_yyyymmdd.txt'
 BADFILE 'J:\00-FM\Delaware, University of\UDEL18\Work Request\Monthly\155984\UPDATE DESIGS\Document1.bad'
 DISCARDFILE 'J:\00-FM\Delaware, University of\UDEL18\Work Request\Monthly\155984\UPDATE DESIGS\Document1.DSC'
 APPEND
